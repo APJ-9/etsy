@@ -2,6 +2,7 @@
     font-family: "Roboto", "Droid Sans", "Segoe UI", "Helvetica", Arial, sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .header {
@@ -141,4 +142,47 @@
     font-size: 14px;
     text-align: center;
     /* white-space: nowrap; */
+}
+.editors_pick{
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.editors_pick .for_your_home p{
+text-align: center;
+font-size: 14px;
+padding-bottom: 4px;
+}
+.editors_pick .for_your_home h4{
+    text-align: center;
+    font-size: 18px;
+}
+.editors_pick .square_card_container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    padding-top: 20px;
+}
+.editors_pick .square_card_container .card .image{
+    width: 100%;
+    aspect-ratio: 1/1;
+    min-width: 50px;
+}
+.editors_pick .square_card_container .card .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.editors_pick .see_more{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.editors_pick .see_more img{
+    width: 24px;
+    height: 24px;
+}
+.editors_pick .see_more p{
+    font-weight: 600;
 }
