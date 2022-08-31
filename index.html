@@ -8,6 +8,19 @@
     <title>Etsy India - Shop for handmade, vintage, custom, and unique gifts for everyone</title>
     <link rel="icon" href="https://www.etsy.com/images/favicon-32x32.png" type="image/png" sizes="32x32">
     <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".content .radio_content").hide();
+            $(".content .radio_content:first-child").show();
+
+            $(".radio_wrap").click(function () {
+                let current_radio = $(this).attr("data-radio");
+                $(".content .radio_content").hide();
+                $("." + current_radio).show();
+            });
+        });
+    </script>
 </head>
 
 <body>
@@ -162,7 +175,42 @@
 
     <section class="discover_unique">
         <h3>Discover unique hand-picked items</h3>
-        
+        <div class="wrapper">
+            <div class="radio_tabs">
+                <label for="" class="radio_wrap" data-radio="radio_1">
+                    <input type="radio" name="items" class="input" />
+                    <p class="head_text active">Modern farmhouse</p>
+                </label>
+                <label for="" class="radio_wrap" data-radio="radio_2">
+                    <input type="radio" name="items" class="input" />
+                    <p class="head_text">Eclectic Decor</p>
+                </label>
+                <label for="" class="radio_wrap" data-radio="radio_3">
+                    <input type="radio" name="items" class="input" />
+                    <p class="head_text">Boho Decor</p>
+                </label>
+                <label for="" class="radio_wrap" data-radio="radio_4">
+                    <input type="radio" name="items" class="input" />
+                    <p class="head_text">Minimalist</p>
+                </label>
+            </div>
+
+            <div class="content">
+                <div class="radio_content radio_1">
+                    <div class="image_container">
+                        <div class="image">
+                            <img src="img/q2.jpg" alt="" srcset="">
+                        </div>
+                        <div class="image">
+                            <img src="img/q3.jpg" alt="" srcset="">
+                        </div>
+                        <div class="image image_large">
+                            <img src="img/q1.jpg" alt="" srcset="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
 </body>
