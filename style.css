@@ -299,7 +299,7 @@
     gap: 10px;
   }
   .jewellery_card_container .card .image{
-    aspect-ratio: 1;
+    aspect-ratio: 1/1;
     max-width: 90px;
   }
 
