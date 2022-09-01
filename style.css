@@ -553,8 +553,8 @@ footer .dark_blue .list ul li {
 }
 
 footer .dark_blue .download_app {
+    padding-top: 20px;
     display: flex;
-
     justify-content: center;
 }
 
@@ -590,7 +590,7 @@ footer .social_media ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 30px;
+    padding-top: 20px;
     padding-bottom: 50px;
 }
 
@@ -601,4 +601,36 @@ footer .social_media ul li {
 footer .social_media ul li svg {
     fill: white;
     width: 36px;
+}
+
+footer .navy_blue{
+    background-color: #232347;
+    padding-bottom: 20px;
+}
+footer .navy_blue .top{
+    padding: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .navy_blue .top svg{
+    fill: white;
+    width: 20px;
+}
+footer .navy_blue .top span{
+    color: white;
+    font-weight: 600;
+    font-size: 13px;
+}
+footer .navy_blue .bottom{
+    color: white;
+    text-align: center;
+    font-size: 13px;
+}
+footer .navy_blue .bottom p{
+    padding-bottom: 20px;
+}
+footer .navy_blue .bottom span{
+    padding-left: 10px;
+    text-decoration: underline;
 }
