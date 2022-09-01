@@ -435,11 +435,27 @@ footer{
 }
 
 footer .light_blue{
-    background-color: #D7E6F5;
+    /* background-color: #D7E6F5; */
     padding: 12px;
+    position: relative;
+    /* overflow: hidden; */
+}
+footer .light_blue .svg_img svg{
+    position: absolute;
+    left: 0;
+    bottom: 100%;
+    width: 2000px;
 }
 footer .blue{
     background-color: #4D6BC6;
+    position: relative;
+}
+footer .blue .toper{
+position: absolute;
+bottom: 100%;
+left: 0;
+/* transform: ; */
+transform: rotate(180deg) scale(2);
 }
 footer .dark_blue{
     background-color: #2F466C;
