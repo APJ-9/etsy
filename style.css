@@ -435,44 +435,105 @@
     font-weight: 600;
 }
 
-footer {
-    /* padding: 12px; */
-}
-
 footer .light_blue {
     background-color: #D7E6F5;
-    padding: 12px;
+    padding: 30px 12px;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
     /* overflow-x: hidden; */
+    padding-bottom: 40px;
 }
 
 footer .light_blue .svg12 {
     position: absolute;
-    bottom: 85%;
+    bottom: 95%;
     /* background-color: red; */
     left: 0px;
     /* right: -20px; */
     width: 100vw;
     overflow-x: hidden;
 }
-footer .light_blue .svg12 svg{
+
+footer .light_blue .svg12 svg {
     /* position: absolute; */
     min-width: 1500px;
     /* transform: scale(20); */
     /* background-color: saddlebrown; */
 }
-footer .blue {
-    background-color: #4D6BC6;
-    position: relative;
+
+footer .light_blue p {
+    text-align: center;
+    font-weight: 600;
+    padding: 20px 10px 20px 10px;
 }
 
-/* footer .blue .toper{
-position: absolute;
-bottom: 100%;
-/* left: 0;
-/* transform: ; */
-/* transform: rotate(180deg) scale(2);
-} */
+footer .light_blue .subscribe {
+    background-color: white;
+    display: flex;
+    padding: 6px 10px;
+    border-radius: 96px;
+    border: 1px solid #ddd;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    max-width: 583px;
+    box-shadow: 1px 2px 4px 0 rgb(34 34 34 / 10%) inset;
+}
+
+footer .light_blue .subscribe input {
+    padding: 10px 0;
+    border: none;
+    padding-left: 10px;
+    /* background-color: saddlebrown; */
+}
+
+footer .light_blue .subscribe input::placeholder {
+    font-size: 16px;
+}
+
+footer .light_blue .subscribe span {
+    font-weight: 600;
+    padding-right: 20px;
+}
+
+footer .blue {
+    padding: 12px;
+    background-color: #4D6BC6;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+footer .blue .svg12 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+footer .blue .svg12 svg {
+    min-width: 1500px;
+}
+
+footer .blue .logo {
+    width: 40px;
+}
+footer .blue span{
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    text-underline-offset: 4px;
+
+}
 
 footer .dark_blue {
     background-color: #2F466C;
