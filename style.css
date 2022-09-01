@@ -443,16 +443,17 @@ footer .light_blue {
     background-color: #D7E6F5;
     padding: 12px;
     position: relative;
-    /* overflow: hidden; */
+    /* overflow-x: hidden; */
 }
 
 footer .light_blue .svg12 {
     position: absolute;
-    bottom: 80%;
-    /* left: -10px; */
+    bottom: 85%;
+    /* background-color: red; */
+    left: 0px;
     /* right: -20px; */
-    width: 100%;
-    overflow: hidden;
+    width: 100vw;
+    overflow-x: hidden;
 }
 footer .light_blue .svg12 svg{
     /* position: absolute; */
