@@ -46,6 +46,7 @@
     height: 42px;
     width: 42px;
 }
+
 .header .lower i {
     padding-right: 12px;
     font-size: 18px;
@@ -339,9 +340,107 @@
     font-size: 13px;
 }
 
-.shop_selection_container .card .image img{
+.shop_selection_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.shop_selection_container .card {
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+}
+
+.shop_selection_container .card .image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     aspect-ratio: 1/1;
+}
+
+.shop_selection_container .card .content {
+    /* background-color: yellow; */
+    padding: 10px;
+}
+
+.shop_selection_container .card .content p {
+    text-align: center;
+    font-weight: 600;
+}
+
+.what_is_etsy {
+    background-color: #FDEBD2;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    padding: 20px;
+    padding-bottom: 80px;
+}
+
+.what_is_etsy svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scale(2);
+}
+
+.what_is_etsy .question {
+    font-family: "Guardian-EgypTT", Charter, "Charter Bitstream", Cambria, "Noto Serif Light", "Droid Serif", Georgia, serif;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 36px;
+}
+
+.what_is_etsy span {
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.what_is_etsy .story {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    line-height: 28px;
+    padding: 8px;
+}
+.what_is_etsy .story h2{
+    padding-top: 28px;
+    padding-bottom: 20px;
+}
+.what_is_etsy .story span{
+    font-size: 16px;
+    text-decoration-style: dashed;
+    text-underline-offset: 4px;
+}
+.what_is_etsy .question_down{
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    padding-top: 28px;
+    padding-bottom: 16px;
+}
+.what_is_etsy .help_center{
+    border: 2px solid #222;
+    padding: 14px 20px;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: 600;
+}
+footer{
+    /* padding: 12px; */
+}
+
+footer .light_blue{
+    background-color: #D7E6F5;
+    padding: 12px;
+}
+footer .blue{
+    background-color: #4D6BC6;
+}
+footer .dark_blue{
+    background-color: #2F466C;
 }
