@@ -897,7 +897,8 @@ footer .navy_blue .bottom span {
         justify-content: center;
         padding-bottom: 10px;
     }
-    footer .blue span{
+
+    footer .blue span {
         padding-left: 16px;
     }
 
@@ -908,9 +909,11 @@ footer .navy_blue .bottom span {
         background-color: #2F466C;
         padding: 24px;
     }
-    footer .dark_blue .list{
+
+    footer .dark_blue .list {
         padding-top: 10px;
     }
+
     footer .dark_blue .list ul {
         list-style: none;
         display: flex;
@@ -922,34 +925,29 @@ footer .navy_blue .bottom span {
         display: block;
         padding: 0px;
         font-weight: 600;
+        /* padding-right: 100px; */
     }
-    footer .dark_blue .list ul li p{
+
+    footer .dark_blue .list ul li p {
         padding-bottom: 10px;
     }
-    footer .dark_blue .list ul li i{
+
+    footer .dark_blue .list ul li i {
         display: none;
     }
-    footer .dark_blue .list ul li .inner_list p{
+
+    footer .dark_blue .list ul li .inner_list p {
         font-weight: 100;
         font-size: 14px;
         padding: 8px 0;
     }
+
     footer .dark_blue .download_app {
         padding-top: 20px;
         display: flex;
         justify-content: center;
     }
 
-    footer .dark_blue .download_app .container {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: nowrap;
-        border: 2px solid white;
-        padding: 0 5px;
-        border-radius: 60px;
-    }
 
     footer .dark_blue .download_app .logo {
         padding: 0 5px;
@@ -966,27 +964,15 @@ footer .navy_blue .bottom span {
         font-weight: 600;
         padding-right: 5px;
     }
-
-    footer .social_media ul {
-        list-style: none;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-top: 20px;
-        padding-bottom: 50px;
+    footer .navy_blue{
+        padding-bottom: 10px;
     }
-
-    footer .social_media ul li {
-        padding: 0 5px;
+    footer .navy_blue .top{
+        padding-bottom: 20px;
+        padding-top: 28px;
     }
-
-    footer .social_media ul li svg {
-        fill: white;
-        width: 36px;
-    }
-
-    .download_app{
-        display: none;
+    footer .navy_blue .bottom span {
+        padding-left: 20px;
     }
 
     .to_hide_640 {
@@ -994,6 +980,6 @@ footer .navy_blue .bottom span {
     }
 
     .to_hide {
-        display: block;
+        display: inline;
     }
 }
