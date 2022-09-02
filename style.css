@@ -407,12 +407,17 @@
     left: 0;
     transform: scale(2);
 }
-
+.what_is_etsy .what-and-read{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .what_is_etsy .question {
     font-family: "Guardian-EgypTT", Charter, "Charter Bitstream", Cambria, "Noto Serif Light", "Droid Serif", Georgia, serif;
     font-weight: 300;
     font-size: 32px;
     line-height: 36px;
+    /* text-align: center; */
 }
 
 .what_is_etsy span {
@@ -454,6 +459,7 @@
     border-radius: 40px;
     font-size: 16px;
     font-weight: 600;
+    max-width: fit-content;
 }
 
 footer .light_blue {
@@ -624,7 +630,9 @@ footer .social_media ul li svg {
     fill: white;
     width: 36px;
 }
-
+footer .navy_blue-container{
+    background-color: #232347;
+}
 footer .navy_blue {
     background-color: #232347;
     padding-bottom: 20px;
@@ -1068,6 +1076,8 @@ footer .navy_blue .bottom span {
 
     .discover_unique .wrapper .content .radio_content .image_container {
         grid-template-columns: 2fr 1fr;
+        width: 45vw;
+        max-width: 690px;
     }
 
     .radio_content .image_container .image_large {
@@ -1109,10 +1119,7 @@ footer .navy_blue .bottom span {
     footer .blue{
         padding-top: 50px;
     }
-
-
-
-    footer .navy_blue {
+    footer .navy_blue{
         display: flex;
         align-items: center;
         justify-content: space-between
@@ -1129,6 +1136,11 @@ footer .navy_blue .bottom span {
 
     .hide_960 {
         display: flex !important;
+    }
+    .border-container{
+        max-width: 1400px;
+        margin: 0 auto;
+        /* overflow: hidden; */
     }
 }
 
