@@ -343,7 +343,7 @@
 
 .jewellery_card_container .card .image {
     aspect-ratio: 1/1;
-    max-width: 900px;
+    max-width: 300px;
 }
 
 .jewellery_card_container .card .image img {
@@ -775,19 +775,57 @@ footer .navy_blue .bottom span {
     }
 
     .discover_unique .wrapper label {
-        /* background-color: saddlebrown; */
         padding-left: 30px;
     }
 
     .discover_unique .wrapper .content .radio_content {
         display: grid;
-        /* align-items: center;
-        flex-wrap: nowrap;
+        align-items: center;
         align-content: center;
-        width: 98%; */
         grid-template-columns: 1fr 1fr;
 
     }
+
+    .discover_unique .wrapper .content .radio_content .image_container {
+        width: 45vw;
+    }
+
+    .jewellery_card_container {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        padding: 24px;
+        gap: 15px;
+        padding-top: 10px;
+        padding-bottom: 0px;
+    }
+
+    .jewellery_card_container .jewellery_text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        grid-column: 1/3;
+    }
+
+    .jewellery_shop .jewellery_card_container .jewellery_text .editor p {
+        text-align: left;
+    }
+
+    .jewellery_shop .jewellery_card_container .jewellery_text .editor h4 {
+        text-align: left;
+        font-size: 28px;
+        padding-bottom: 20px;
+    }
+
+    .jewellery_shop .jewellery_card_container .jewellery_text .see_more {
+        justify-content: flex-start;
+    }
+
+    .jewellery_card_container .card .image {
+        min-width: 100px;
+        min-height: 100px;
+        max-width: 200px;
+    }
+
 
     .to_hide_640 {
         display: none;
@@ -795,8 +833,5 @@ footer .navy_blue .bottom span {
 
     .to_hide {
         display: block;
-    }
-    .discover_unique{
-        display: none;
     }
 }
