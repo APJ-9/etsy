@@ -796,4 +796,7 @@ footer .navy_blue .bottom span {
     .to_hide {
         display: block;
     }
+    .discover_unique{
+        display: none;
+    }
 }
