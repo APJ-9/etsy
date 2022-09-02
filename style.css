@@ -251,7 +251,6 @@
     padding-bottom: 16px;
     margin-right: 30px;
     color: #666;
-    /* background-color: darkblue; */
 }
 
 .discover_unique .wrapper .radio_tabs .radio_wrap .active {
@@ -826,6 +825,169 @@ footer .navy_blue .bottom span {
         max-width: 200px;
     }
 
+    .shop_our_selection {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .shop_our_selection .see_more {
+        justify-content: flex-start;
+    }
+
+    .shop_our_selection .see_more p {
+        font-size: 28px;
+        padding-bottom: 0px;
+    }
+
+    .shop_our_selection .sub_head {
+        text-align: left;
+        font-size: 16px;
+        padding-top: 14px;
+    }
+
+    .shop_selection_container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .shop_selection_container .card .image img {
+        aspect-ratio: unset;
+    }
+
+    .shop_selection_container .card .content {
+        padding: 20px;
+    }
+
+    .shop_selection_container .card .content p {
+        font-size: 20px;
+    }
+
+    .what_is_etsy .question {
+        padding-top: 20px;
+        font-size: 44px;
+        padding-bottom: 10px;
+    }
+
+
+    .what_is_etsy .story h2 {
+        font-size: 28px;
+        padding-top: 30px;
+        padding-bottom: 24px;
+    }
+
+    .what_is_etsy .story p {
+        padding: 0 32px;
+    }
+
+    .what_is_etsy .story span {
+        font-size: 16px;
+        text-decoration-style: dashed;
+        text-underline-offset: 4px;
+    }
+
+    .what_is_etsy .question_down {
+        font-size: 20px;
+    }
+
+    footer .light_blue .subscribe {
+        min-width: 480px;
+    }
+
+    footer .blue {
+        flex-direction: row;
+        justify-content: center;
+        padding-bottom: 10px;
+    }
+    footer .blue span{
+        padding-left: 16px;
+    }
+
+
+
+
+    footer .dark_blue {
+        background-color: #2F466C;
+        padding: 24px;
+    }
+    footer .dark_blue .list{
+        padding-top: 10px;
+    }
+    footer .dark_blue .list ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer .dark_blue .list ul li {
+        color: white;
+        display: block;
+        padding: 0px;
+        font-weight: 600;
+    }
+    footer .dark_blue .list ul li p{
+        padding-bottom: 10px;
+    }
+    footer .dark_blue .list ul li i{
+        display: none;
+    }
+    footer .dark_blue .list ul li .inner_list p{
+        font-weight: 100;
+        font-size: 14px;
+        padding: 8px 0;
+    }
+    footer .dark_blue .download_app {
+        padding-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    footer .dark_blue .download_app .container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        border: 2px solid white;
+        padding: 0 5px;
+        border-radius: 60px;
+    }
+
+    footer .dark_blue .download_app .logo {
+        padding: 0 5px;
+        padding-top: 5px;
+    }
+
+    footer .dark_blue .download_app .logo svg {
+        width: 24px;
+    }
+
+    footer .dark_blue .download_app .container span {
+        color: white;
+        font-size: 14px;
+        font-weight: 600;
+        padding-right: 5px;
+    }
+
+    footer .social_media ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+
+    footer .social_media ul li {
+        padding: 0 5px;
+    }
+
+    footer .social_media ul li svg {
+        fill: white;
+        width: 36px;
+    }
+
+    .download_app{
+        display: none;
+    }
 
     .to_hide_640 {
         display: none;
